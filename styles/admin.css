@@ -1,0 +1,95 @@
+nav {
+    background-image: url("https://i.etsystatic.com/31956167/r/il/db52b5/4267717091/il_570xN.4267717091_l1xs.jpg");
+    background-size: 50%;
+}
+
+main {
+    margin-top: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+table {
+    margin-top: 0px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+th, td {
+    border: 2px solid red;
+    padding: 8px 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table, .pagination {
+    border: 2px solid red; 
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.pagination {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.notification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    z-index: 1000;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.notification.show {
+    display: block;
+}
+
+
+@media only screen and (min-width: 480px) {
+    nav {
+        background-image: none;
+    }
+
+    table {
+        margin-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+}

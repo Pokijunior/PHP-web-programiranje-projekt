@@ -80,6 +80,28 @@ a {
         background-size: 200px;
     }
 
+    .login {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://i.pinimg.com/550x/32/4d/fe/324dfef2bed802d191078e679b5cc847.jpg");
+        background-size: 120px;
+    }
+
+    .register {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://minifigs.me/cdn/shop/files/handyperson-open-smile-eyelashes-head.jpg?v=1692705769&width=1946");
+        background-size: 120px;
+    }
+
+    .admin {
+        margin: 0px;
+        padding: 40px 35px;
+        background-image: url("https://i.etsystatic.com/31956167/r/il/db52b5/4267717091/il_570xN.4267717091_l1xs.jpg");
+        background-size: 150px;
+    }
+    
+
     a:hover {
         box-shadow: 3px 5px 4px yellow;
         border-radius: 5px;

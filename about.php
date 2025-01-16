@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <title>Document</title>
+    <title>About Lego</title>
 </head>
 <body>
     <header>
@@ -19,11 +23,12 @@
         </div>
 
         <nav>
-            <ul><a href="index.html">Home</a></ul>
-            <ul><a href="cars.html">Cars</a></ul>
-            <ul><a href="alternative-builds.html">Alternative Builds</a></ul>
-            <ul><a href="contact.html">Contact</a></ul>
-            <ul class="about"><a href="about.html">About</a></ul>
+            <ul><a href="index.php">Home</a></ul>
+            <ul><a href="cars.php">Cars</a></ul>
+            <ul><a href="alternative-builds.php">Alternative Builds</a></ul>
+            <ul><a href="contact.php">Contact</a></ul>
+            <ul class="about"><a href="about.php">About</a></ul>
+        	<?php include 'nav.php'; ?>
         </nav>
     </header>
 

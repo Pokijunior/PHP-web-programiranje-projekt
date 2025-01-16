@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="styles/alternative-builds.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <title>Document</title>
+    <title>Lego Speed Alternative builds</title>
 </head>
 <body>
     <header>
@@ -19,19 +23,19 @@
         </div>
 
         <nav>
-            <ul><a href="index.html">Home</a></ul>
-            <ul><a href="cars.html">Cars</a></ul>
-            <ul class="alternative-builds"><a href="alternative-builds.html">Alternative Builds</a></ul>
-            <ul><a href="contact.html">Contact</a></ul>
-            <ul><a href="about.html">About</a></ul>
-            
+            <ul><a href="index.php">Home</a></ul>
+            <ul><a href="cars.php">Cars</a></ul>
+            <ul class="alternative-builds"><a href="alternative-builds.php">Alternative Builds</a></ul>
+            <ul><a href="contact.php">Contact</a></ul>
+            <ul><a href="about.php">About</a></ul>
+            <?php include 'nav.php'; ?>
         </nav>
     </header>
 
     <main>
         <div class="note">
             <div class="info">
-                <p class="info-text"><strong>Info!</strong> Click on the Lego set and he will show you his alternative builds</p>
+                <p class="info-text"><strong>Info!</strong> Click on the Lego set and it will show you his alternative builds</p>
             </div>
         </div>
 
@@ -166,7 +170,7 @@
                 </figure>
                 
                 <figure class="hidden-image">
-                    <img src="images/corvette-c3.png" alt="Chevrolet Corvette C3">
+                    <img src="images/Corvette-c3.png" alt="Chevrolet Corvette C3">
                     <figcaption>Chevrolet Corvette C3</figcaption>
                 </figure>
                 

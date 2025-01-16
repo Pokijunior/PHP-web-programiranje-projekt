@@ -6,7 +6,7 @@ main {
 
 nav {
     background-image: url("https://previews.123rf.com/images/rosinka79/rosinka792103/rosinka79210300016/165009117-tambov-russian-federation-february-14-2021-lego-speed-champions-a-lot-of-lego-race-cars-on-a-white.jpg");
-    background-size: 50%;
+    background-size: 100%;
 }
 
 .car {
@@ -87,7 +87,7 @@ p {
         padding: 50px 0;
     }
 
-    p {
+    .car-name {
         font-size: 25px;
     }
 }

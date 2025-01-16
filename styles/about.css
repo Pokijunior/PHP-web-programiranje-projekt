@@ -41,7 +41,6 @@ iframe {
 @media only screen and (min-width: 480px) {
     nav {
         background-image: none;
-        margin-right: 0px;
     }
 
     h1 {

@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
     <link rel="stylesheet" href="styles/cars.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <title>Document</title>
+    <title>Lego Speed Cars</title>
 </head>
 <body>
     <header>
@@ -19,12 +23,12 @@
         </div>
 
         <nav>
-            <ul><a href="index.html">Home</a></ul>
-            <ul class="cars"><a href="cars.html">Cars</a></ul>
-            <ul><a href="alternative-builds.html">Alternative Builds</a></ul>
-            <ul><a href="contact.html">Contact</a></ul>
-            <ul><a href="about.html">About</a></ul>
-            
+            <ul><a href="index.php">Home</a></ul>
+            <ul class="cars"><a href="cars.php">Cars</a></ul>
+            <ul><a href="alternative-builds.php">Alternative Builds</a></ul>
+            <ul><a href="contact.php">Contact</a></ul>
+            <ul><a href="about.php">About</a></ul>
+            <?php include 'nav.php'; ?>
         </nav>
     </header>
 
@@ -35,7 +39,7 @@
             </div>
 
             <div class="car-info">
-                <p>2 Fast 2 Furious Nissan Skyline GT-R (R34)</p>
+                <p class="car-name">2 Fast 2 Furious Nissan Skyline GT-R (R34)</p>
             </div>
         </div>
 
@@ -45,7 +49,7 @@
             </div>
 
             <div class="car-info">
-                <p>Fast & Furious 1970 Dodge Charger R/T</p>
+                <p class="car-name">Fast & Furious 1970 Dodge Charger R/T</p>
             </div>
         </div>
 
@@ -55,7 +59,7 @@
             </div>
 
             <div class="car-info">
-                <p>Ferrari 812 Competizione</p>
+                <p class="car-name">Ferrari 812 Competizione</p>
             </div>
         </div>
 
@@ -65,7 +69,7 @@
             </div>
 
             <div class="car-info">
-                <p>007 Aston Martin DB5</p>
+                <p class="car-name">007 Aston Martin DB5</p>
             </div>
         </div>
 
@@ -75,7 +79,7 @@
             </div>
 
             <div class="car-info">
-                <p>Lamborghini Countach</p>
+                <p class="car-name">Lamborghini Countach</p>
             </div>
         </div>
 
@@ -85,7 +89,7 @@
             </div>
 
             <div class="car-info">
-                <p>Lotus Evija</p>
+                <p class="car-name">Lotus Evija</p>
             </div>
         </div>
 
@@ -95,7 +99,7 @@
             </div>
 
             <div class="car-info">
-                <p>Toyota Supra GR</p>
+                <p class="car-name">Toyota Supra GR</p>
             </div>
         </div>
 
@@ -105,7 +109,7 @@
             </div>
 
             <div class="car-info">
-                <p>Ferrari 512M</p>
+                <p class="car-name">Ferrari 512M</p>
             </div>
         </div>
         
@@ -115,7 +119,7 @@
             </div>
 
             <div class="car-info">
-                <p>Koenigsegg Jesko</p>
+                <p class="car-name">Koenigsegg Jesko</p>
             </div>
         </div>
 
@@ -125,7 +129,7 @@
             </div>
 
             <div class="car-info">
-                <p>Pagani Utopia</p>
+                <p class="car-name">Pagani Utopia</p>
             </div>
         </div>
 
@@ -135,7 +139,7 @@
             </div>
 
             <div class="car-info">
-                <p>Porsche 963</p>
+                <p class="car-name">Porsche 963</p>
             </div>
         </div>
     </main>

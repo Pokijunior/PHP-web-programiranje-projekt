@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,6 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/footer.css">
-    
     <title>Lego Speed Champions</title>
 </head>
 <body>
@@ -19,11 +22,12 @@
         </div>
 
         <nav>
-            <ul class="home"><a href="index.html">Home</a></ul>
-            <ul><a href="cars.html">Cars</a></ul>
-            <ul><a href="alternative-builds.html">Alternative Builds</a></ul>
-            <ul><a href="contact.html">Contact</a></ul>
-            <ul><a href="about.html">About</a></ul>
+            <ul class="home"><a href="index.php">Home</a></ul>
+            <ul><a href="cars.php">Cars</a></ul>
+            <ul><a href="alternative-builds.php">Alternative Builds</a></ul>
+            <ul><a href="contact.php">Contact</a></ul>
+            <ul><a href="about.php">About</a></ul>
+            <?php include 'nav.php'; ?>
         </nav>
     </header>
 
@@ -38,12 +42,12 @@
             <figure>
                 <img class="cars-picture" src="images/Cars.jpg" alt="Cars">
                 <figcaption>
-                    Lego Speed Champions (stylized as LEGO Speed Champions) is an auto racing-inspired theme of Lego building sets first released in 2015. It features classic and modern styles from well-known car brands
+                    Lego Speed Champions (stylized as LEGO Speed Champions) is an auto racing-inspired theme of Lego building sets first released in 2015. It features classic and modern styles from well-known car brands.
                 </figcaption>
             </figure>
 
             <p class="main-text">
-                Ready, set, go! LEGO® Speed Champions puts race car lovers in the driver's seat with realistic vehicle models from familiar racing competitors. LEGO® Speed Champions models take on popular brands like Ferrari, Lamborghini, McLaren, Porsche and others as they zoom around the track alongside other classic designs. They also make great gifts at birthdays and holidays for adults and kids 6+. Sets come with extras like driver minifigures in full racing gear as well as replacement hub caps and even some other customization options for the cars, so kids can make any display match their own personal style. These toys for girls and boys will offer hours of racing and building fun.
+                Ready, set, go! LEGO® Speed Champions puts race car lovers in the driver's seat with realistic vehicle models from familiar racing competitors. LEGO® Speed Champions models take on popular brands like Ferrari, Lamborghini, McLaren, Porsche, and others as they zoom around the track alongside other classic designs.
             </p>
         </div>        
     </main>
@@ -57,7 +61,5 @@
 
         <p class="copyright">Copyright &copy; Lovro Pokrajčić</p>
     </footer>
-    
-
 </body>
 </html>
