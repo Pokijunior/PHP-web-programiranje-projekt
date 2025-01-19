@@ -80,7 +80,7 @@ $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $limit = 10; // page number
 $offset = ($page - 1) * $limit;
 
-$sql = "SELECT id, username, email, created_at FROM users WHERE id > 1 LIMIT $limit OFFSET $offset";
+$sql = "SELECT id, username, email, created_at FROM users role != 'admin' LIMIT $limit OFFSET $offset";
 $result = $conn->query($sql);
 $total_users_sql = "SELECT COUNT(*) AS total FROM users";
 $total_users_result = $conn->query($total_users_sql);
